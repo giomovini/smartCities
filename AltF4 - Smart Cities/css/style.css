@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Ubuntu:wght@300&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+p, h1 {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.bloco {
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.726);
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu ul li {
+  margin-left: 25px;
+}
+
+.menu__item:hover {
+  color: rgb(199, 56, 255);
+}
+
+.bloco__inicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bloco__inicio__texto {
+  width: 25%;
+}
+
+.bloco__inicio__texto h1 {
+  margin-bottom: 13px;
+}
+
+.bloco__inicio__imagem {
+  width: 250px;
+  height: 150px;
+}
+
+.bloco__conteudo {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.bloco__conteudo__texto {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.conteudo__texto__parte {
+  width: 30%;
+}
+
+.conteudo__texto__parte h1 {
+  margin-bottom: 10px;
+}
+
+.bloco__exemplo {
+  display: flex;
+  height: 100%;
+}
+
+.direita {
+  flex-direction: row-reverse;
+}
+
+.esquerda {
+  flex-direction: row;
+}
+
+.bloco__exemplo__conteudo {
+  width: 35%;
+  padding: 50px 30px;
+  height: 100%;
+}
+
+.bloco__exemplo__conteudo p {
+  margin-top: 25px;
+}
+
+.footer {
+  height: 150px;
+  background-color: rgb(55, 55, 61);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.footer__conteudo {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.footer__conteudo__contatos {
+  display: flex;
+}
+
+.footer__conteudo__contatos i {
+  margin: 0 15px;
+  font-size: 30px;
+}
+
+
+.imagem {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.escurecer {
+  background-color: rgba(0, 0, 0, 0.678);
+}
+
+.fundo__movel {
+  background-attachment: fixed;
+}
+
+.texto__espacado {
+  line-height: 27px;
+}
+
+
+.fundo__1 {
+  background-image: url(../img/pexels-jiarong-deng-1034662.jpg);
+}
+
+.fundo__2 {
+  background-image: url(../img/favpng_smart-city-logo-infrastructure.png);
+}
+
+.fundo__3 {
+  background-image: url(../img/pexels-marieke-schönfeld-2514035.jpg);
+}
+
+.fundo__4 {
+  background-image: url(../img/shotspotter2.png);
+}
+
+.fundo__5 {
+  background-image: url(../img/calcada-inteligente-foto.png);
+}
+
+
+.cor__footer {
+  color: rgb(158, 157, 157);
+}
+
+.cor__1 {
+  color: rgb(133, 62, 214);
+}
+
+.cor__2  {
+  color: rgb(204, 75, 124);
+}
+
+
+.fa-twitter:hover {
+  color: #00acee;
+}
+
+.fa-instagram:hover {
+  color: #3f729b;
+}
+
+.fa-envelope:hover {
+  color: #c4302b;
+}
+
+.fa-facebook-f:hover {
+  color: #3b5998;
+}
+
+.fa-linkedin-in:hover {
+  color: #0e76a8;
+}
